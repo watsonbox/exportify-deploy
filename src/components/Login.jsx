@@ -25,7 +25,7 @@ class Login extends React.Component {
   render() {
     return (
       <Button id="loginButton" type="submit" variant="outline-secondary" size="lg" onClick={this.authorize}>
-        <FontAwesomeIcon icon={['far', 'check-circle']} size="sm" /> {this.props.i18n.t("get_started")}
+        <FontAwesomeIcon icon={['far', 'check-circle']} size="sm" />
       </Button>
     )
   }
